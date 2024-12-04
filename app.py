@@ -16,8 +16,8 @@ with app.app_context():
 
 register_routes(app)
 
-TELEGRAM_BOT_TOKEN = 'TOKEN'
-TELEGRAM_CHAT_ID = 'CHATID'
+TELEGRAM_BOT_TOKEN = '7640430112:AAHXMNJhwkkr45VkeIfYCcSGidZIPoqNVW8'
+TELEGRAM_CHAT_ID = 'SS20 Stock'
 
 @app.route('/dashboard')
 def dashboard():
